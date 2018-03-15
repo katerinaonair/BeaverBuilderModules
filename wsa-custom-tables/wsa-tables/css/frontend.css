@@ -1,0 +1,74 @@
+/**
+* Pricing Table Columns
+*
+* Column layouts for pricing table
+*/
+
+.fl-table {
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+table {
+    border-collapse: inherit; 
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    /* border-top: 1px solid #ddd; */
+}
+
+.fl-table:before,
+.fl-table:after {
+    display: table;
+    content: " ";
+}
+.table-fill {
+    background: transparent;
+    margin: auto;
+    max-width: 100%;
+    padding: 5px;
+    width: 100%;
+    animation: float 5s infinite;
+    overflow-x: auto;
+}
+.table-title {
+    margin: auto;
+    width: inherit;
+    text-align: center;
+}
+tr td {
+    padding-left: 5px;
+}
+th {
+   /* font-size: 23px;*/
+
+    font-weight: 100;
+    padding: 24px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+}
+tr {
+    /*font-size: 16px;*/
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+/*tr:first-child {
+    border-top: none;
+}
+tr:last-child {
+    border-bottom: none;
+}*/
+
+td {
+    vertical-align: middle;
+    /*font-weight: 300;*/
+    /*font-size: 18px;*/
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+}
+td:last-child {
+    border-right: 0px;
+}
